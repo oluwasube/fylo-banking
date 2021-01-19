@@ -1,7 +1,7 @@
 
 @media(min-width: 200px) and (max-width:448px){
   html{
-    font-size: 49%;
+    font-size: 58%;
   }
  
    .menu__wrap{
@@ -13,7 +13,6 @@
     
   }
   
-
   .navigation__checkbox{
     position: absolute;
     top: 2rem;
@@ -147,7 +146,7 @@
 
   .landing__page--main{
     position: absolute;
-    top: 56rem;
+    top: 40rem;
     max-width: 100%;
     align-items: center;
     text-align: center;
@@ -241,10 +240,10 @@
 }
 
 
-@media(min-width: 450px) and (max-width:600px){
+@media(min-width: 449px) and (max-width:600px){
 
   html{
-    font-size: 49%;
+    font-size: 60%;
   }
  
   .menu__wrap{
@@ -396,7 +395,7 @@
 
   .landing__page--main{
     position: absolute;
-    top: 56rem;
+    top: 40rem;
     max-width: 100%;
     align-items: center;
     text-align: center;
