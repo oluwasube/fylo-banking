@@ -153,9 +153,13 @@
     justify-content: center;
   
   }
+  p{
+    font-size: 1.6rem; 
+  }
 
   .sub__main--paragraph{
     margin-top: 2rem;
+    font-size: 1.6rem;
   }
   .bg__img--2{
     width: 100%;
@@ -192,11 +196,13 @@
     align-content: center;
   }
   .section__sub--main{
-   margin-bottom: 5rem;
-   text-align: center;
-   align-content: center;
-  }
-  
+    margin-bottom: 5rem;
+    text-align: center;
+    align-content: center;
+   justify-content: center;
+   margin-left: 3rem;
+   
+   }
 
   .section__one--sub{
     max-width: 120rem;
@@ -490,7 +496,7 @@
 @media(min-width: 451px) and (max-width:649px){
 
     html{
-      font-size: 53%;
+      font-size: 62%;
     }
 
     .menu__wrap{
@@ -656,7 +662,7 @@
     }
     .landing__page--main{
       position: absolute;
-      top: 62rem;
+      top: 48rem;
       max-width: 100%;
       align-items: center;
       text-align: center;
@@ -695,6 +701,9 @@
    margin-bottom: 5rem;
    text-align: center;
    align-content: center;
+  justify-content: center;
+  margin-left: 5rem;
+  
   }
   
 
