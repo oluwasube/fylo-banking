@@ -26,10 +26,7 @@ a{
     text-decoration: none;
   
 }
-p{
-  font-size: 1.6rem;
-  color: #383838;
-}
+
 
 .navigation__checkbox{
   position: absolute;
@@ -88,7 +85,7 @@ p{
   text-decoration: none;
    color: #fff;
    cursor: pointer;
-   padding: 1rem 2.5rem;
+   padding: 1rem 2rem;
    background: linear-gradient(to right, rgba(2, 165, 75, 0.788), rgba(15, 155, 148, 0.747));
    display: inline-block;
    margin-top: -2rem;
@@ -186,7 +183,7 @@ animation: moveInLeft 2s;
   text-decoration: none;
    color: #fff;
    cursor: pointer;
-   padding: 1.5rem 3.5rem;
+   padding: 1rem 2.5rem;
    background: linear-gradient(to right, rgba(3, 180, 83, 0.788), rgba(15, 155, 148, 0.747));
    display: inline-block;
    border-radius: 8rem;
@@ -210,13 +207,25 @@ animation: moveInLeft 2s;
 .landing__page{
   padding: 20rem 0 10rem 0;
   color: #777;
-  display: flex;
   position: relative;
   margin-top: -8rem;
 }
 
+.landing__page--1{
+  max-width: 120rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  
+}
+p{
+  font-size: 1.7rem;
+  color: #383838;
+  width: 100%;
+  
+}
+
 .landing__page--main{
-  max-width: 38rem;
+  max-width: 40%;
   margin: 0 8rem;
   font-size: 1.5rem;
 }
@@ -226,21 +235,10 @@ animation: moveInLeft 2s;
 }
 
 .landing__page--image img{
-  width: 50%;
+  width: 80%;
   position: absolute;
   top: -20rem;
   right: -9.5rem;
-}
-
-.oval{
-  width: 7rem;
-  height: 7rem;
-  background-color: transparent;
-  border: 2rem solid rgba(3, 180, 83, 0.89);
-  border-top-right-radius: 50%;
-  transform: rotate(70deg);
-  position: absolute;
-  left: -4rem;
 }
 
 
@@ -267,15 +265,19 @@ animation: moveInLeft 2s;
 }
 
 .section__one--sub{
-  max-width: 120rem;
+  max-width: 100%;
   margin: 0 8rem;
   font-size: 1.5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
 }
 
 .section__sub--main{
   margin-right: 4rem;
+  width: 23rem;
+  justify-content: center;
+
 }
 
 .h2__class{
@@ -287,9 +289,15 @@ animation: moveInLeft 2s;
 
 .sub__main--paragraph{
   color:  #777;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  width: 100%;
 }
 
+.sub__main--paragraph--2{
+  color:  #777;
+  font-size: 1.3rem;
+  width: 100%;
+}
 
 .bg__img{
   width: 70%;
@@ -317,7 +325,6 @@ animation: moveInLeft 2s;
   width: 100%;
   height: 14.5rem;
 }
-
 
 .section--img{
   width: 90%;
@@ -351,6 +358,9 @@ h2{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 4rem;
+}
+.sub__class{
+  width: 20.5rem;
 }
 
 .footer__section{
